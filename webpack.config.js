@@ -47,16 +47,10 @@ module.exports = {
         path: __dirname + '/static/js/'
     },
     entry: {
-        /*
-        anatomica: [
-            './src/js/anatomica.js',
-            './src/sass/anatomica.scss',
-        ],*/
         all: [
             './src/js/index.js',
             './src/sass/index.scss',
         ]
-
     },
     module: mod,
     plugins: plug
