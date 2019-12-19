@@ -47,7 +47,7 @@ module.exports = {
         path: __dirname + '/static/js/'
     },
     entry: {
-        all: [
+        bundle: [
             './src/js/index.js',
             './src/sass/index.scss',
         ]
