@@ -8,7 +8,7 @@
     "build": "webpack",
     "dev": "npm run build -- --mode development --devtool source-map",
     "watch": "npm run build -- --mode development --watch --devtool source-map",
-    "prod": "npm run build -- --mode production"    
+    "prod": "npm run build -- --mode production"
   },
   "keywords": [],
   "author": "",
@@ -17,12 +17,11 @@
     "@babel/core": "^7.6.0",
     "@babel/preset-env": "^7.6.0",
     "babel-loader": "^8.0.6",
+    "bootstrap": "^4.4.1",
     "css-loader": "^3.2.0",
     "jquery": "^3.4.1",
     "mini-css-extract-plugin": "^0.8.0",
     "node-sass": "^4.12.0",
-    "nunjucks": "^3.2.0",
-    "nunjucks-loader": "^3.0.0",
     "postcss-loader": "^3.0.0",
     "precss": "^4.0.0",
     "sass-loader": "^8.0.0",
