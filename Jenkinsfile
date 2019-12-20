@@ -24,6 +24,10 @@ pipeline {
                 sh "rm -f *.tar.gz"
                 sh "tar --append --file django-lessons.${VERSION}.tar static/css/bundle.${VERSION}.css"
                 sh "tar --append --file django-lessons.${VERSION}.tar static/js/bundle.${VERSION}.js"
+                sh "tar --append --file django-lessons.${VERSION}.tar static/admin/css/"
+                sh "tar --append --file django-lessons.${VERSION}.tar static/admin/js/"
+                sh "tar --append --file django-lessons.${VERSION}.tar static/admin/img/"
+                sh "tar --append --file django-lessons.${VERSION}.tar static/admin/fonts/"
                 sh "gzip django-lessons.${VERSION}.tar"
                 archiveArtifacts artifacts: '*.tar.gz'
             }
