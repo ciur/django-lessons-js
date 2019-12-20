@@ -24,7 +24,7 @@ pipeline {
                 sh "rm -f *.tar.gz"
                 sh "tar --append --file django-lessons.${VERSION}.tar static/css/bundle.${VERSION}.css"
                 sh "tar --append --file django-lessons.${VERSION}.tar static/js/bundle.${VERSION}.js"
-                sh "gzip django-lessons-js.${VERSION}.tar"
+                sh "gzip django-lessons.${VERSION}.tar"
                 archiveArtifacts artifacts: '*.tar.gz'
             }
         }
@@ -35,7 +35,7 @@ pipeline {
                         s3Upload(
                             bucket:"builds-dgl", 
                             path: 'django-lessons-js/', 
-                            file: "django-lessons-js.${VERSION}.tar.gz"
+                            file: "django-lessons.${VERSION}.tar.gz"
                         );
                     }
                 }
