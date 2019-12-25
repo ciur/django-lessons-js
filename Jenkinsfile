@@ -24,6 +24,7 @@ pipeline {
                 sh "rm -f *.tar.gz"
                 sh "tar --append --file django-lessons.${VERSION}.tar static/css/bundle.${VERSION}.css"
                 sh "tar --append --file django-lessons.${VERSION}.tar static/js/bundle.${VERSION}.js"
+                sh "tar --append --file django-lessons.${VERSION}.tar static/favicon.ico"
                 sh "tar --append --file django-lessons.${VERSION}.tar static/img/"
                 sh "tar --append --file django-lessons.${VERSION}.tar static/fonts/"
                 sh "tar --append --file django-lessons.${VERSION}.tar static/admin/css/"
