@@ -7716,6 +7716,10 @@ h5 > a:visited {
 .social {
   font-size: 1.4rem; }
 
+.navbar-logo {
+  margin: 0 1rem;
+  width: 60px; }
+
 @font-face {
   font-family: 'themify';
   src: url("/static/fonts/themify.eot?-fvbane");
