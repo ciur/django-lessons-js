@@ -1,0 +1,23 @@
+.social {
+    width: 1.4rem;
+    height: 1.4rem;
+    display: inline-block;
+    background-size: 100% 100%;
+}
+
+.social.github {
+    background-image: url(/static/img/github.svg);
+}
+
+.social.twitter {
+    background-image: url(/static/img/twitter.svg);
+}
+
+.social.youtube {
+    background-image: url(/static/img/youtube.svg);
+}
+
+.social.rss {
+    background-image: url(/static/img/rss.svg);
+}
+

@@ -7720,6 +7720,24 @@ h5 > a:visited {
   margin: 0 1rem;
   width: 60px; }
 
+.social {
+  width: 1.4rem;
+  height: 1.4rem;
+  display: inline-block;
+  background-size: 100% 100%; }
+
+.social.github {
+  background-image: url(/static/img/github.svg); }
+
+.social.twitter {
+  background-image: url(/static/img/twitter.svg); }
+
+.social.youtube {
+  background-image: url(/static/img/youtube.svg); }
+
+.social.rss {
+  background-image: url(/static/img/rss.svg); }
+
 @font-face {
   font-family: 'themify';
   src: url("/static/fonts/themify.eot?-fvbane");
