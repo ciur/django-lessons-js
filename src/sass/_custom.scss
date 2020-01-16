@@ -1,5 +1,3 @@
-@import "responsive";
-
 .bg-dark {
     background-color: #0C4B33 !important;
 }
@@ -44,18 +42,47 @@ h5 > a:visited {
 iframe {
     width: 800px;
     height: 600px;
-    
-    @include respond(size-medium) {
+    @include media-breakpoint-down(md) {
         width: 640px;
         height: 480px;
     }
-    @include respond(size-small) {
+    @include media-breakpoint-down(sm) {
         width: 480px;
         height: 360px;
     }
-    @include respond(size-tiny) {
+    @include media-breakpoint-down(xs) {
         width: 380px;
         height: 285px;    
     }
 }
+.lesson {
+    .picture {
+        a {
+            img {
+                @include media-breakpoint-down(sm) {
+                    max-width: 200px;
+                }
+                @include media-breakpoint-down(xs) {
+                    max-width: 180px;
+                }
+            }
+        }
+    }
+    .header {
+        @include media-breakpoint-down(sm) {
+            font-size: 0.9rem;
+        }
+    }
 
+    .title {
+        @include media-breakpoint-down(sm) {
+            font-size: 1.3rem;
+        }
+    }
+
+    .description {
+        @include media-breakpoint-down(sm) {
+            font-size: 1rem;
+        }
+    }
+}
