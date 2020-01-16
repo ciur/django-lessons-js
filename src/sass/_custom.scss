@@ -1,3 +1,5 @@
+@import "responsive";
+
 .bg-dark {
     background-color: #0C4B33 !important;
 }
@@ -38,3 +40,22 @@ h5 > a:visited {
     margin: 0 1rem;
     width: 60px;
 }
+
+iframe {
+    width: 800px;
+    height: 600px;
+    
+    @include respond(size-medium) {
+        width: 640px;
+        height: 480px;
+    }
+    @include respond(size-small) {
+        width: 480px;
+        height: 360px;
+    }
+    @include respond(size-tiny) {
+        width: 380px;
+        height: 285px;    
+    }
+}
+

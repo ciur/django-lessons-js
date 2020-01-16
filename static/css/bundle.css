@@ -7720,6 +7720,22 @@ h5 > a:visited {
   margin: 0 1rem;
   width: 60px; }
 
+iframe {
+  width: 800px;
+  height: 600px; }
+  @media (max-width: 800px) {
+    iframe {
+      width: 640px;
+      height: 480px; } }
+  @media (max-width: 600px) {
+    iframe {
+      width: 480px;
+      height: 360px; } }
+  @media (max-width: 480px) {
+    iframe {
+      width: 380px;
+      height: 285px; } }
+
 .social {
   width: 1.8rem;
   height: 1.8rem;
