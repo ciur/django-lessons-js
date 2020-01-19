@@ -31,6 +31,29 @@ let mod = {
                 loader: "babel-loader"
             }
         },
+        {
+          test: /\.ts$/,
+          use: [{
+            loader: 'ts-loader',
+            options: {
+              compilerOptions: {
+                declaration: false,
+                target: 'es5',
+                module: 'commonjs'
+              },
+              transpileOnly: true
+            }
+          }]
+        }, 
+        {
+          test: /\.svg$/,
+          use: [{
+            loader: 'html-loader',
+            options: {
+              minimize: true
+            }
+          }]
+        }
     ]
 }
 
