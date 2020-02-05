@@ -7685,7 +7685,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 .bg-dark {
-  background-color: #0C4B33 !important; }
+  background-color: #454545 !important; }
 
 h2, h3, h4, h5 {
   color: #0C3C26; }
@@ -8850,5 +8850,3 @@ iframe {
 .ti-rss-alt:before {
   content: "\e75f"; }
 
-
-/*# sourceMappingURL=bundle.css.map*/
