@@ -1,5 +1,107 @@
 /* include scss styles here */
 @import "~bootstrap/scss/bootstrap";
 @import "custom";
+@import "shortcodes/button";
 @import "icons";
+@import "typography";
+@import "font-awesome.min";
 @import "themify-icons";
+
+$footer_text_color: rgba(255, 255, 255, 0.7);
+$hover_green: #00b106;
+
+.page-section {
+    padding: 3rem 0;
+}
+
+.mild-bg {
+    background-color: #006528;
+}
+
+form.newsletter {
+    input.form-control {
+        padding: 0.8rem;
+        height: 3rem;
+    }
+}
+
+
+footer.black-bg {
+    background: #1a1a1a;
+    padding: 5rem 0 0;
+
+    .row.top {
+        align-items: center;
+        display: flex;
+    }
+
+    h6, p { 
+        color: $footer_text_color; 
+    }
+    ul {
+        padding: 0;
+        li {
+            a {
+                color: white;
+            }
+            a:hover { 
+                color: #2046f2; 
+            }
+        }
+    }
+    .social {
+        ul {
+            background: #f6f7f8;
+            display: inline-flex;
+            border-radius: 3px;
+            padding: 0px 10px;
+            li {
+                display: inline-block;
+                a {
+                    i {
+                        font-size: 1.4rem;
+                        width: 45px;
+                        height: 45px;
+                        line-height: 45px;
+                        text-align: center;
+                        float: none;
+                        color: #323232; 
+                        -webkit-transition: all 0.5s ease-out 0s; 
+                        -moz-transition: all 0.5s ease-out 0s;
+                        -ms-transition: all 0.5s ease-out 0s;
+                        -o-transition: all 0.5s ease-out 0s;
+                        transition: all 0.5s ease-out 0s
+                    }
+                    i:hover{color: #84ba3f;}
+                }
+            }
+        }
+    } 
+    .footer-useful-link { 
+        ul {
+            li { 
+                list-style: none;
+                margin-bottom: 12px; 
+            }
+            a  {
+                color: $footer_text_color;
+                font-size: 1rem;
+                vertical-align: top;
+                display: block;
+                line-height: 26px; 
+            }
+            li:last-child { 
+                margin-bottom: 0; 
+            }
+            li a:hover { 
+                color: $hover_green; 
+                text-decoration: none;
+            }
+        }
+    }
+
+    .footer-widget {
+        padding: 20px 0;
+        border-top: 1px solid #262626;
+    }
+}

@@ -36,15 +36,15 @@ let mod = {
 
 let plug = [
       new MiniCssExtractPlugin({
-        filename: '../css/[name].css',
+        filename: 'css/bundle.css',
       }),
 ]
 
 
 module.exports = {
     output: {
-        filename: '[name].js',
-        path: __dirname + '/static/js/'
+        filename: 'js/bundle.js',
+        path: '/home/eugen/projects/Django-Lessons.py/lessons/static/lessons/'
     },
     entry: {
         bundle: [
