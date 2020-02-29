@@ -17,6 +17,15 @@ $hover_green: #00b106;
 .mild-bg {
     background-color: #006528;
 }
+.mission-statement {
+    .mission {
+        background-color: #c9fbe6;
+        padding: 1.5rem;
+        p {
+            color: #222;    
+        }
+    }
+}
 
 form.newsletter {
     input.form-control {
