@@ -1,15 +1,13 @@
 /* include scss styles here */
 @import "~bootstrap/scss/bootstrap";
+@import "./theme";
 @import "custom";
 @import "shortcodes/button";
 @import "icons";
 @import "typography";
 @import "font-awesome.min";
 @import "themify-icons";
-
-$footer_text_color: rgba(255, 255, 255, 0.7);
-$hover_green: #00b106;
-$secondary_color: #006528;
+@import "./navbar";
 
 .page-section {
     padding: 3rem 0;
@@ -37,7 +35,7 @@ form.newsletter {
 
 
 footer.black-bg {
-    background: #1a1a1a;
+    background: $menu_black_bg_color;
     padding: 5rem 0 0;
 
     .row.top {
