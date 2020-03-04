@@ -1,3 +1,5 @@
+@import "./theme";
+
 .bg-dark {
     background-color: #454545 !important;
 }
@@ -63,6 +65,7 @@ iframe {
 }
 .lesson {
     .picture {
+        border: 1px solid #cecece;
         a {
             img {
                 @include media-breakpoint-down(sm) {
@@ -75,12 +78,19 @@ iframe {
         }
     }
     .header {
+        font-size: 0.9rem;
+        .badge {
+            font-size: 0.9rem;
+        }
+
         @include media-breakpoint-down(sm) {
             font-size: 0.9rem;
         }
     }
 
     .title {
+        font-weight: bold;
+        color: darken($hover_green, 9%);
         @include media-breakpoint-down(sm) {
             font-size: 1.3rem;
         }
