@@ -26,6 +26,18 @@
     }
 }
 
+form.form-inline {
+    input.form-control {
+        border-radius: 0;
+        background-color: lighten($menu_black_bg_color, 12%);
+        border-color: $menu_black_bg_color;
+        color: #eee;
+    }
+    button {
+        border-radius: 0;
+    }
+}
+
 form.newsletter {
     input.form-control {
         padding: 0.8rem;
