@@ -1,0 +1,26 @@
+@import "./theme";
+
+.right-sidebar {
+    .card {
+        border-radius: 0;
+
+        .card-body {
+            padding: 0;
+
+            li {
+                border-top: 1px solid #ccc;
+                text-align: left;
+                padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+
+                a {
+                    color: #666;
+                }
+            }
+
+            li:hover {
+                background-color: #f5f9fb;
+            }
+        }
+    }
+
+}
