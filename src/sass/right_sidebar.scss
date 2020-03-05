@@ -1,14 +1,17 @@
 @import "./theme";
 
+$card_item_active_bg_color: #f5f9fb;
+$card_item_border_color: #e9ecef;
 .right-sidebar {
     .card {
         border-radius: 0;
+        border: 1px solid $card_item_border_color;
 
         .card-body {
             padding: 0;
 
             li {
-                border-top: 1px solid #ccc;
+                border-top: 1px solid $card_item_border_color;
                 text-align: left;
                 padding: 0.25rem 0.5rem 0.25rem 0.5rem;
 
@@ -18,7 +21,11 @@
             }
 
             li:hover {
-                background-color: #f5f9fb;
+                background-color: $card_item_active_bg_color;
+            }
+
+            li.active {
+                background-color: darken($card_item_active_bg_color, 5%);   
             }
         }
     }
