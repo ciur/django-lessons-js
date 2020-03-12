@@ -35,6 +35,19 @@ input.button:hover {
     border-color: $green;
 }
 
+.pricing-button {
+    a {
+        background-color: $green;
+        border-color: $green;
+        border-radius: 0
+    }
+
+    a:hover {
+        background-color: lighten($green, 5%);
+        border-color: lighten($green, 5%);
+    }
+}
+
 body {
     color: #4f4f4f;
     p {
