@@ -19,8 +19,18 @@ input {
     border-radius: 0 !important;
 }
 
+button {
+    border-radius: 0 !important;   
+}
+
 a {
     color: $green;
+}
+
+p {
+    a {
+        color: $green !important;       
+    }
 }
 
 input.button:hover {
