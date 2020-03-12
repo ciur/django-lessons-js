@@ -4,6 +4,37 @@
     background-color: #454545 !important;
 }
 
+input.button {
+    color: #fff;
+    background-color: $green;
+    border-color: $green;
+    border-radius: 0;
+}
+
+.theme-color {
+    color: $green !important;
+}
+
+input {
+    border-radius: 0 !important;
+}
+
+a {
+    color: $green;
+}
+
+input.button:hover {
+    color: #fff;
+    background-color: lighten($green, 5%);
+    border-color: lighten($green, 5%);
+}
+
+.btn-success {
+    color: #fff;
+    background-color: $green;
+    border-color: $green;
+}
+
 body {
     color: #4f4f4f;
     p {
