@@ -11,6 +11,19 @@ input.button {
     border-radius: 0;
 }
 
+/* top right menu with green "Upgrade to PRO" text */
+a.dropdown-item.button {
+    color: #fff;
+    background-color: $green;
+    border-color: $green;
+    border-radius: 0;   
+}
+
+a.dropdown-item.button:hover {
+    background-color: lighten($green, 5%);
+    border-color: lighten($green, 5%);
+}
+
 .theme-color {
     color: $green !important;
 }
