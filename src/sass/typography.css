@@ -61,9 +61,21 @@ p { font-weight: normal; line-height: 1.5; color: #626262; }
 hr { margin: 0; padding: 0px; border-bottom:1px dashed #eceff8; border-top: 0px; }
 hr.light { margin: 0; padding: 0px; border-bottom:1px solid rgba(255,255,255,0.1); border-top: 0px; }
 
-*::-moz-selection { background: #84ba3f; color: #fff; text-shadow: none; }
-::-moz-selection { background: #84ba3f; color: #fff; text-shadow: none; }
-::selection { background: #84ba3f; color: #fff; text-shadow: none; }
+*::-moz-selection { 
+    background: #28a745; 
+    color: #fff; 
+    text-shadow: none; 
+  }
+::-moz-selection { 
+    background: #28a745;
+    color: #fff; 
+    text-shadow: none; 
+  }
+::selection { 
+  background: #28a745; 
+  color: #fff; 
+  text-shadow: none; 
+}
 
 /***************************
 Page section margin padding
