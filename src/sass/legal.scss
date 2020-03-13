@@ -1,0 +1,26 @@
+@import "./theme";
+
+
+
+.legal {
+
+    h1, h2 {
+        color: #3e3e3e;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+        @include media-breakpoint-down(sm) {
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+        }
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        @include media-breakpoint-down(sm) {
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+        }
+    }    
+}
