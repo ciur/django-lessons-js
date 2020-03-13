@@ -150,10 +150,12 @@ iframe {
     }
 
     .title {
-        font-weight: bold;
-        color: darken($hover_green, 9%);
+        color: #3e3e3e;
         @include media-breakpoint-down(sm) {
             font-size: 1.3rem;
+        }
+        a:hover {
+            color: $green;
         }
     }
 
