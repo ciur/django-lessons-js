@@ -19,6 +19,12 @@ a.dropdown-item.button {
     border-radius: 0;   
 }
 
+a {
+    span.badge.badge-info {
+        border-radius: 0;
+    }
+}
+
 a.dropdown-item.button:hover {
     background-color: lighten($green, 5%);
     border-color: lighten($green, 5%);
