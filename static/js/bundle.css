@@ -8894,14 +8894,12 @@ iframe {
 .ti-rss-alt:before {
   content: "\e75f"; }
 
-.foot sdsd er .black-bg {
+.footer .black-bg {
   background: #1a1a1a; }
-  .foot sdsd er .black-bg p {
+  .footer .black-bg p {
     color: rgba(255, 255, 255, 0.5); }
-  .foot sdsd er .black-bg .social-icons li a {
+  .footer .black-bg .social-icons li a {
     color: rgba(255, 255, 255, 0.5); }
-  .foot sdsd er .black-bg .social-icons li a:hover {
+  .footer .black-bg .social-icons li a:hover {
     color: white !important; }
 
-
-/*# sourceMappingURL=bundle.css.map*/
