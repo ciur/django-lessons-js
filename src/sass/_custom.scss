@@ -184,38 +184,3 @@ iframe {
         }
     }
 }
-
-
-.login-social li { 
-    display: inline-block;
-    margin: 0 1rem 3rem 1rem; 
-    
-    font-size: 14px;
-    background: #f8f9fa;
-
-    a {
-        transition:all 0.5s ease-in-out;
-        -webkit-transition:all 0.5s ease-in-out;
-        -ms-transition:all 0.5s ease-in-out;
-        -moz-transition:all 0.5s ease-in-out;
-        -o-transition:all 0.5s ease-in-out;
-    }
-    a.github { 
-        display: block;
-        padding: 12px 20px;
-        color: #333;
-        border-radius: 0; 
-        border: 1px solid #dae0e5;
-    }
-
-    a.github:hover {
-        background: darken(#f8f9fa, 10%);
-    }
-
-    i {
-        border-right: 1px solid #fff;
-        padding-right: 10px;
-        font-size: 1.5rem;
-        margin-right: 10px; 
-    }
-}
