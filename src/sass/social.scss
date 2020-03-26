@@ -1,6 +1,7 @@
 ul.lesson-social {
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
+
     li {
         list-style: none;
         a.twitter-share-button {
