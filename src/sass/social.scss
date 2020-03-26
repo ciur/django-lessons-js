@@ -1,0 +1,14 @@
+ul.lesson-social {
+    display: flex;
+    justify-content: right;
+    li {
+        list-style: none;
+        a.twitter-share-button {
+            display: inline-block;
+            width: 32px;
+            margin: 0 0rem 1rem 0.5rem;
+            height: 32px;
+            background-image: url(/static/lessons/img/twitter_logo_blue_32.png);
+        }
+    }    
+}
