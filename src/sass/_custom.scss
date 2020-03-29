@@ -145,42 +145,50 @@ iframe {
 }
 .lesson {
     .picture {
-        border: 1px solid #cecece;
         a {
             img {
                 @include media-breakpoint-down(sm) {
-                    max-width: 200px;
-                }
-                @include media-breakpoint-down(xs) {
-                    max-width: 180px;
+                    max-width: 250px;
                 }
             }
         }
     }
-    .header {
-        font-size: 0.9rem;
-        .badge {
+    .lesson-info-column {
+        padding-left: 1rem;
+
+        @include media-breakpoint-up(md) {
+            padding-left: 2rem;
+        }
+
+        .header {
             font-size: 0.9rem;
+            .badge {
+                font-size: 0.9rem;
+            }
+
+            @include media-breakpoint-down(sm) {
+                display: none;
+            }
         }
 
-        @include media-breakpoint-down(sm) {
-            font-size: 0.9rem;
+        .title {
+            color: #212121;
+            margin-top: 0.9rem;
+
+            @include media-breakpoint-down(sm) {
+                font-size: 1.1rem;
+                margin-top: 0.5rem;
+            }
+            a:hover {
+                color: $green;
+            }
+        }
+
+        .description {
+            @include media-breakpoint-down(sm) {
+                font-size: 0.9rem;
+            }
         }
     }
 
-    .title {
-        color: #3e3e3e;
-        @include media-breakpoint-down(sm) {
-            font-size: 1.3rem;
-        }
-        a:hover {
-            color: $green;
-        }
-    }
-
-    .description {
-        @include media-breakpoint-down(sm) {
-            font-size: 1rem;
-        }
-    }
 }
