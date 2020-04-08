@@ -192,3 +192,10 @@ iframe {
     }
 
 }
+
+
+.eugen-ciur-picture {
+    @include media-breakpoint-down(md) {
+        max-width: 180px;
+    }
+}

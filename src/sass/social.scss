@@ -14,6 +14,14 @@ ul.lesson-social {
     }    
 }
 
+.userline {
+    display: flex;
+    align-items: center;
+
+    img.userline_avatar {
+        max-width: 32px;
+    }
+}
 
 .login-social li { 
     display: inline-block;
