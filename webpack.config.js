@@ -44,7 +44,7 @@ let plug = [
 module.exports = {
     output: {
         filename: 'js/bundle.js',
-        path: '/home/eugen/projects/Django-Lessons.py/lessons/static/lessons/'
+        path: '/home/eugen/github/django-lessons-proj/lessons/static/lessons/'
     },
     entry: {
         bundle: [
